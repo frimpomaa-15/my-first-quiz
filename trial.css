@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+nav{
+    display: flex;
+    
+    padding: 2% 5vh;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 3em;
+
+}
+
+nav ul li{
+    
+    list-style: none;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color: aqua;
+    
+
+
+}
+
+nav ul li:active{
+     color: yellow;
+}
+
+header{
+    height: 40%;
+    background-color: red;
+    font-style: italic;
+    font-size: larger;
+    padding: 20%;
+}
+
+
+.second{
+    height: 40%;
+    background-color: yellowgreen;
+    padding: 20%;
+    font-size: larger;
+    font-style: italic;
+}
+
+footer{
+    height: 40%;
+    background-color: green;
+    padding: 20%;
+    font-size: larger;
+    font-style: italic;
+}
